@@ -5,9 +5,10 @@ As above. The Anet A8 board doesn't have enough memory to run Marlin with bileni
 
 #**IMPORTANT**
 
-The Z sensor offsets are not compatible with the default sensor mount! To correct this, before using the file open it in youir preferred text editor and adjust the following values:
+The Z sensor offsets are not compatible with the default sensor mount! To correct this, before using the file open it in your preferred text editor and adjust the following values:
 
 X_PROBE_OFFSET_FROM_EXTRUDER
+
 Y_PROBE_OFFSET_FROM_EXTRUDER
 
 Instructions on how to enter these values correctly are directly above their #define instruction.
